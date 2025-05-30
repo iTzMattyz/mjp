@@ -52,7 +52,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact }) => {
         <div className="md:w-2/5 z-10 animate-fade-in-delay-2">
           <div className="rounded-full overflow-hidden border-4 border-pink-600 shadow-xl w-64 h-64 md:w-80 md:h-80 mx-auto">
             <img 
-              src="../photo/propic.jpg" 
+              src="https://i.imgur.com/bWcnOP5.jpeg" 
               alt="Mattia Jorgen Prugnoli" 
               className="w-full h-full object-cover"
             />
