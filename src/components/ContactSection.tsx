@@ -21,14 +21,34 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setFormStatus({ submitted: true, success: true, message: 'Grazie per il tuo messaggio! Ti risponderò al più presto.' });
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
-    });
+    try {
+      const response = await fetch('https://formspree.io/f/manjweea', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        setFormStatus({
+          submitted: true,
+          success: true,
+          message: 'Grazie per il tuo messaggio! Ti risponderò al più presto.',
+        });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Errore durante l’invio del messaggio.');
+      }
+    } catch (error) {
+      setFormStatus({
+        submitted: true,
+        success: false,
+        message: 'Si è verificato un errore. Riprova più tardi.',
+      });
+    }
   };
 
   return (
