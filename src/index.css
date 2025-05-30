@@ -85,3 +85,8 @@ body {
   background: transparent;
 }
 
+@media (max-width: 600px) {
+  .mobile-shift {
+    bottom: -1rem; /* 50px */
+  }
+}
