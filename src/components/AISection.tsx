@@ -53,14 +53,12 @@ const AISection: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-2/5 z-10 animate-fade-in-delay-2">
-          <div className="rounded-lg overflow-hidden border-4 border-pink-600 shadow-xl w-64 h-64 md:w-80 md:h-80 mx-auto">
-            <img 
-              src="https://www.zerounoweb.it/wp-content/uploads/2024/09/computervision-1.jpg" 
-              alt="AI e Computer Vision" 
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <div className="lg:w-1/2 relative rounded-lg overflow-hidden border-4 border-pink-600 shadow-xl">
+          <img 
+            src="https://www.zerounoweb.it/wp-content/uploads/2024/09/computervision-1.jpg" 
+            alt="AI e Computer Vision" 
+            className="w-full h-auto object-cover rounded-lg"
+          />
         </div>
       </div>
     </section>
