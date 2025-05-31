@@ -17,7 +17,7 @@ const SkillsSection: React.FC = () => {
   
   <div className="relative z-10 container mx-auto px-4">
     <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-white-200">
-      Competenze in Programmazione
+      Skills in Programmazione
     </h2>
     
     <div className="max-w-3xl mx-auto mb-16">
