@@ -3,15 +3,18 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 interface HeroSectionProps {
   scrollToContact: () => void;
+  setHeroNameRef: (el: HTMLElement | null) => void;
 }
 
-const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact }) => {
+const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact, setHeroNameRef }) => {
   return (
     <section className="relative min-h-screen flex items-center text-white">
-      <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-12 md:mb-0 z-10">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
+          <h1
+            className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in"
+            ref={setHeroNameRef}
+          >
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-yellow-400 to-purple-500">
               Mattia Jorgen Prugnoli
             </span>
@@ -32,17 +35,17 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact }) => {
               Contattami
             </button>
             
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/iTzMattyz" target="_blank" rel="noopener noreferrer" 
               className="p-3 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg transition-all duration-300 flex items-center gap-2">
               <Github size={20} />
             </a>
             
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.linkedin.com/in/mattia-jorgen-prugnoli-853169180/" target="_blank" rel="noopener noreferrer"
               className="p-3 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg transition-all duration-300 flex items-center gap-2">
               <Linkedin size={20} />
             </a>
             
-            <a href="mailto:contact@example.com"
+            <a href="mailto:mattia.prugnoli@gmail.com"
               className="p-3 bg-gray-800 hover:bg-gray-700 text-gray-300 rounded-lg transition-all duration-300 flex items-center gap-2">
               <Mail size={20} />
             </a>
