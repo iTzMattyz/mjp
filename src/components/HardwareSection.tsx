@@ -3,7 +3,7 @@ import { HardDrive, PenTool as Tool, Cpu, Wrench } from 'lucide-react';
 
 const HardwareSection: React.FC = () => {
   return (
-    <section id="hardware" className="relative min-h-screen flex items-center text-white">
+    <section id="hardware" className="relative min-h-[80vh] lg:min-h-[70vh] -mt-16 flex items-center text-white">
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col-reverse lg:flex-row items-center justify-between">
         <div className="lg:w-2/5 mt-12 lg:mt-0 z-10">
@@ -22,8 +22,7 @@ const HardwareSection: React.FC = () => {
             Esperienza Hardware
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-xl">
-            Ho lavorato in un negozio di riparazioni hardware: so assemblare computer, 
-            diagnosticare problemi e intervenire su componenti elettronici.
+          Ho maturato esperienza pratica in un centro specializzato nella riparazione hardware, acquisendo competenze nell’assemblaggio di computer, nella diagnosi di guasti e nell’intervento su componenti elettronici.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white/10 p-6 rounded-lg shadow-lg">
