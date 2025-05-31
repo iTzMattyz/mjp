@@ -52,7 +52,7 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
   };
 
   return (
-    <section ref={contactRef} id="contact" className="relative min-h-screen flex items-center text-white">
+    <section ref={contactRef} id="contact" className="relative min-h-[80vh] lg:min-h-[70vh] -mt-16 flex items-center text-white">
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center justify-center z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
@@ -63,14 +63,15 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-white-300">Inviami un messaggio</h3>
               <p className="text-white-300 mb-8">
-                Hai un progetto in mente o vuoi semplicemente dire ciao? Compila il modulo e ti risponderò al più presto.
-              </p>
+              Hai un progetto da realizzare o desideri metterti in contatto? Compila il modulo e ti risponderò il prima possibile.              </p>
               <div className="space-y-4 mb-8">
               <div className="flex items-center">
                 <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
                   <Mail className="h-6 w-6" />
                 </div>
-                <span>mattia.prugnoli@gmail.com</span>
+                <a href="mailto:mattia.prugnoli@gmail.com" className="underline text-white hover:text-pink-400">
+  mattia.prugnoli@gmail.com
+</a>
               </div>
               <div className="flex items-center">
                 <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
@@ -82,7 +83,7 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
             </div>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-white mb-2">Nome</label>
+                <label htmlFor="name" className="block text-sm font-medium text-white mb-2">Nome e Cognome</label>
                 <div className="relative">
                   <input
                     type="text"
