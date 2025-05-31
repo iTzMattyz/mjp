@@ -3,7 +3,7 @@ import { Brain, Cpu, Eye, Zap } from 'lucide-react';
 
 const AISection: React.FC = () => {
   return (
-    <section id="ai" className="relative min-h-screen flex items-center text-white">
+    <section id="ai" className="relative min-h-[80vh] lg:min-h-[70vh] -mt-16 flex items-center text-white">
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-12 lg:mb-0 z-10">
