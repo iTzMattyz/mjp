@@ -7,7 +7,7 @@ const AISection: React.FC = () => {
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none"></div>
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-12 lg:mb-0 z-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">
+          <h2 className="text-center md:text-left text-3xl md:text-4xl font-bold mb-16">
             Esperienza in AI e Computer Vision
           </h2>
           <p className="text-lg text-blue-100 mb-8 max-w-xl">
