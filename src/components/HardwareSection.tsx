@@ -18,7 +18,7 @@ const HardwareSection: React.FC = () => {
           </div>
         </div>
         <div className="lg:w-1/2 z-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">
+          <h2 className="text-center md:text-left text-3xl md:text-4xl font-bold mb-16">
             Esperienza Hardware
           </h2>
           <p className="text-lg text-gray-300 mb-8 max-w-xl">
