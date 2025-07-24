@@ -19,14 +19,15 @@ html {
 body {
   background: linear-gradient(
     135deg,
-    #0f0c29,
-    #302b63,
-    #24243e,
-    #dd03b1,
-    #333399,
-    #07dbdb,
-    #ff3399
-  );  margin: 0;
+    #0f0c29,  /* Blu molto scuro */
+    #1a3a5f,  /* Blu profondo */
+    #005f73,  /* Blu-verde scuro */
+    #0a9396,  /* Verde acqua scuro */
+    #007373,  /* Verde acqua chiaro */
+    #1a3a5f,  /* Verde pastello */
+    #0f0c29   /* Verde molto chiaro */
+  );
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
 }
