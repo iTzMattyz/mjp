@@ -18,21 +18,21 @@ const EducationSection: React.FC = () => {
           {/* Contenuto a sinistra */}
           <div className="lg:w-1/2 mb-12 lg:mb-0 lg:pr-8">
             <div className="flex items-center mb-6">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <GraduationCap className="h-10 w-10" />
               </div>
               <h3 className="text-2xl font-bold text-white">Ingegneria Informatica e dell'Informazione</h3>
             </div>
 
             <div className="flex items-center mb-4 text-blue-100">
-              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <MapPin className="h-5 w-5" />
               </div>
               <span>Università di Siena</span>
             </div>
 
             <div className="flex items-center mb-6 text-blue-100">
-              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <Calendar className="h-5 w-5" />
               </div>
               <span>2021 - 2025</span>
@@ -44,11 +44,11 @@ const EducationSection: React.FC = () => {
             </p>
 
             <div className="flex flex-wrap gap-2">
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Machine Learning</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Algoritmi</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Data Science</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Sviluppo Software</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Reti</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Machine Learning</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Algoritmi</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Data Science</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Sviluppo Software</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Reti</div>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ const EducationSection: React.FC = () => {
               </a>
               <div className="absolute bottom-4 left-4 bg-white bg-opacity-90 p-4 rounded-lg shadow-lg z-20">
                 <div className="flex items-center">
-                  <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+                  <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                     <BookOpen className="h-5 w-5" />
                   </div>
                   <span className="text-gray-800 font-medium">Università di Siena</span>
@@ -81,21 +81,21 @@ const EducationSection: React.FC = () => {
           {/* Contenuto Superiori */}
           <div className="lg:w-1/2 mb-12 lg:mb-0 lg:pr-8">
             <div className="flex items-center mb-6">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <GraduationCap className="h-10 w-10" />
               </div>
               <h3 className="text-2xl font-bold text-white">Scuola di Istruzione Superiore</h3>
             </div>
 
             <div className="flex items-center mb-4 text-blue-100">
-              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <MapPin className="h-5 w-5" />
               </div>
               <span>"Tito Sarrocchi" di Siena</span>
             </div>
 
             <div className="flex items-center mb-6 text-blue-100">
-              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+              <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <Calendar className="h-5 w-5" />
               </div>
               <span>2016 - 2021</span>
@@ -106,10 +106,10 @@ const EducationSection: React.FC = () => {
             </p>
 
             <div className="flex flex-wrap gap-2">
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Programmazione</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Telecomunicazioni</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Reti</div>
-              <div className="px-3 py-1 bg-white text-pink-600 rounded-full text-sm">Database</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Programmazione</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Telecomunicazioni</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Reti</div>
+              <div className="px-3 py-1 bg-white text-indigo-700 rounded-full text-sm">Database</div>
             </div>
           </div>
 
@@ -127,7 +127,7 @@ const EducationSection: React.FC = () => {
               </a>
               <div className="absolute bottom-4 left-4 bg-white bg-opacity-90 p-4 rounded-lg shadow-lg z-20">
                 <div className="flex items-center">
-                  <div className="mr-2 bg-pink-100 p-2 rounded-lg text-pink-600">
+                  <div className="mr-2 bg-pink-100 p-2 rounded-lg text-indigo-700">
                     <BookOpen className="h-5 w-5" />
                   </div>
                   <span className="text-gray-800 font-medium">"Tito Sarrocchi"</span>
