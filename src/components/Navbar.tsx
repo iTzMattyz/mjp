@@ -58,37 +58,37 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToContact, heroNameRef }) => {
               nameVisible ? 'opacity-100 text-white' : 'opacity-0 pointer-events-none'
             }`}
           >
-            <span className="text-violet-500">M</span>attia <span className="text-violet-500">J</span>orgen <span className="text-violet-500">P</span>rugnoli
+            <span className="text-[#058484]">M</span>attia <span className="text-[#058484]">J</span>orgen <span className="text-[#058484]">P</span>rugnoli
           </a>
 
           <div className="ml-auto hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('skills')}
-              className="text-violet-300 hover:text-white transition-colors"
+              className="text-white hover:text-white transition-colors"
             >
               Skills
             </button>
             <button
               onClick={() => scrollToSection('ai')}
-              className="text-violet-300 hover:text-white transition-colors"
+              className="text-white hover:text-white transition-colors"
             >
               AI & Computer Vision
             </button>
             <button
               onClick={() => scrollToSection('hardware')}
-              className="text-violet-300 hover:text-white transition-colors"
+              className="text-white hover:text-white transition-colors"
             >
               Hardware
             </button>
             <button
               onClick={() => scrollToSection('education')}
-              className="text-violet-300 hover:text-white transition-colors"
+              className="text-white hover:text-white transition-colors"
             >
               Formazione
             </button>
             <button
               onClick={handleContactClick}
-              className="px-5 py-2 bg-violet-600 hover:bg-violet-700 text-white rounded-lg transition-all duration-300"
+              className="px-5 py-2 bg-[#058484] hover:bg-[#058484] text-white rounded-lg transition-all duration-300"
             >
               Contattami
             </button>
