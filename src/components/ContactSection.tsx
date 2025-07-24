@@ -66,7 +66,7 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
               Hai un progetto da realizzare o desideri metterti in contatto? Compila il modulo e ti risponderò il prima possibile.              </p>
               <div className="space-y-4 mb-8">
               <div className="flex items-center">
-                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                   <Mail className="h-6 w-6" />
                 </div>
                 <a href="mailto:mattia.prugnoli@gmail.com" className="underline text-white hover:text-pink-400">
@@ -74,7 +74,7 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
 </a>
               </div>
               <div className="flex items-center">
-                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                   <User className="h-6 w-6" />
                 </div>
                 <span>Mattia Jorgen Prugnoli</span>
@@ -92,9 +92,9 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-gray-900/80 border border-pink-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full px-4 py-3 bg-gray-900/80 border border-indigo-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                   />
-                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-pink-600">
+                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-indigo-700">
   <User className="h-5 w-5" />
 </div>
                 </div>
@@ -109,9 +109,9 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-gray-900/80 border border-pink-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full px-4 py-3 bg-gray-900/80 border border-indigo-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                   />
-                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-pink-600">
+                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-indigo-700">
   <Mail className="h-5 w-5" />
 </div>
                 </div>
@@ -126,16 +126,16 @@ const ContactSection: React.FC<{contactRef: React.RefObject<HTMLElement>}> = ({ 
                     onChange={handleChange}
                     required
                     rows={4}
-                    className="w-full px-4 py-3 bg-gray-900/80 border border-pink-600 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+                    className="w-full px-4 py-3 bg-gray-900/80 border border-indigo-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
                   ></textarea>
-                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-pink-600">
+                  <div className="absolute right-3 top-2.5 bg-pink-100 p-1.5 rounded-lg text-indigo-700">
   <MessageSquare className="h-5 w-5" />
 </div>
                 </div>
               </div>
               <button
                 type="submit"
-                className="w-full py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg font-semibold transition-all duration-300 shadow-lg"
+                className="w-full py-3 bg-[#058484] hover:bg-[#058484] text-white rounded-lg font-semibold transition-all duration-300 shadow-lg"
               >
                 Invia <Send className="inline ml-2 h-5 w-5" />
               </button>
