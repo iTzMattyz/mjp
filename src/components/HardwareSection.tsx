@@ -27,7 +27,7 @@ const HardwareSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white/10 p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                   <HardDrive className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-white">Assemblaggio PC</h3>
@@ -36,7 +36,7 @@ const HardwareSection: React.FC = () => {
             </div>
             <div className="bg-white/10 p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                   <Tool className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-white">Riparazioni</h3>
@@ -45,7 +45,7 @@ const HardwareSection: React.FC = () => {
             </div>
             <div className="bg-white/10 p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+                <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <Cpu className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-white">Diagnostica</h3>
@@ -54,7 +54,7 @@ const HardwareSection: React.FC = () => {
             </div>
             <div className="bg-white/10 p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-              <div className="mr-3 bg-pink-100 p-2 rounded-lg text-pink-600">
+              <div className="mr-3 bg-pink-100 p-2 rounded-lg text-indigo-700">
                 <Wrench className="h-6 w-6" />
                 </div>
                 <h3 className="text-xl font-semibold text-white">Manutenzione</h3>
