@@ -15,7 +15,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact, setHeroNameR
             className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in"
             ref={setHeroNameRef}
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-yellow-400 to-purple-500">
+            <span className="text-transparent bg-clip-text bg-[#22a7aa]">
               Mattia Jorgen Prugnoli
             </span>
           </h1>
@@ -30,7 +30,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact, setHeroNameR
           <div className="flex flex-wrap gap-4 mb-10 animate-fade-in-delay-3">
             <button 
               onClick={scrollToContact}
-              className="px-8 py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="px-8 py-3 bg-[#058484] hover:bg-[#058484] text-white rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Contattami
             </button>
@@ -53,9 +53,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ scrollToContact, setHeroNameR
         </div>
         
         <div className="md:w-2/5 z-10 animate-fade-in-delay-2">
-          <div className="rounded-full overflow-hidden border-4 border-pink-600 shadow-xl w-64 h-64 md:w-80 md:h-80 mx-auto">
+          <div className="rounded-full overflow-hidden border-4 border-[#0a9396] shadow-xl w-64 h-64 md:w-80 md:h-80 mx-auto">
             <img 
-              src="https://i.imgur.com/AyrAQA3.jpeg" 
+              src="https://i.imgur.com/xIH9Q4k.jpeg" 
               alt="Mattia Jorgen Prugnoli" 
               className="w-full h-full object-cover"
             />
