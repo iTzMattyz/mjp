@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="text-white font-bold text-xl">
-            <span className="text-violet-500">M</span>attia <span className="text-violet-500">J</span>orgen <span className="text-violet-500">P</span>rugnoli
+            <span className="text-[#058484]">M</span>attia <span className="text-[#058484]">J</span>orgen <span className="text-[#058484]">P</span>rugnoli
             </a>
             <p className="mt-2 text-gray-400">
               Sviluppatore e Ingegnere Informatico
