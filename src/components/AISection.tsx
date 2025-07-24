@@ -16,7 +16,7 @@ const AISection: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="flex items-start">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <Brain className="h-6 w-6" />
               </div>
               <div>
@@ -25,7 +25,7 @@ const AISection: React.FC = () => {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <Eye className="h-6 w-6" />
               </div>
               <div>
@@ -34,7 +34,7 @@ const AISection: React.FC = () => {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <Cpu className="h-6 w-6" />
               </div>
               <div>
@@ -43,7 +43,7 @@ const AISection: React.FC = () => {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+              <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
                 <Zap className="h-6 w-6" />
               </div>
               <div>
@@ -53,13 +53,15 @@ const AISection: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2 relative rounded-lg overflow-hidden border-4 border-pink-600 shadow-xl">
-          <img 
+        <div className="relative">
+        <div className="absolute -top-4 -left-4 w-24 h-24 bg-blue-500 rounded-full opacity-20"></div>
+        <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-indigo-500 rounded-full opacity-20"></div>
+                      <img 
             src="https://www.zerounoweb.it/wp-content/uploads/2024/09/computervision-1.jpg" 
             alt="AI e Computer Vision" 
-            className="w-full h-auto object-cover rounded-lg"
+            className="w-full h-auto rounded-lg shadow-2xl relative z-10"
           />
-        </div>
+          </div>
       </div>
     </section>
   );
