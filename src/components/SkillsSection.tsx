@@ -35,7 +35,7 @@ const SkillsSection: React.FC = () => {
           data-aos-delay={index * 100}
         >
           <div className="flex items-center mb-4">
-            <div className="mr-4 bg-pink-100 p-3 rounded-lg text-pink-600">
+            <div className="mr-4 bg-pink-100 p-3 rounded-lg text-indigo-700">
               {skill.icon}
             </div>
             <h3 className="text-xl font-semibold text-gray-200">{skill.name}</h3>
