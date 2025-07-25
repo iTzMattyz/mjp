@@ -108,31 +108,31 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToContact, heroNameRef }) => {
         <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
           <button
             onClick={() => scrollToSection('skills')}
-            className="text-violet-300 hover:text-white py-2 transition-colors"
+            className="text-white hover:text-white py-2 transition-colors"
           >
             Skills
           </button>
           <button
             onClick={() => scrollToSection('ai')}
-            className="text-violet-300 hover:text-white py-2 transition-colors"
+            className="text-white hover:text-white py-2 transition-colors"
           >
             AI & Computer Vision
           </button>
           <button
             onClick={() => scrollToSection('hardware')}
-            className="text-violet-300 hover:text-white py-2 transition-colors"
+            className="text-white hover:text-white py-2 transition-colors"
           >
             Hardware
           </button>
           <button
             onClick={() => scrollToSection('education')}
-            className="text-violet-300 hover:text-white py-2 transition-colors"
+            className="text-white hover:text-white py-2 transition-colors"
           >
             Formazione
           </button>
           <button
             onClick={handleContactClick}
-            className="py-2 px-4 bg-violet-600 hover:bg-violet-700 text-white rounded-lg transition-all duration-300"
+            className="py-2 px-4 bg-[#058484] hover:bg-[#058484] text-white rounded-lg transition-all duration-300"
           >
             Contattami
           </button>
